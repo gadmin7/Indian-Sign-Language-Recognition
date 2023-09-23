@@ -35,7 +35,7 @@ To get started with this dummy project, follow these steps:
 1. Clone the repository from GitHub.
 2. Set the Java path in the `eng2isl.py` module: `java_path = r"C:\Program Files\Android\Android Studio\jre\bin"`.
 3. Add sign videos for the Text to Sign module to the `txt_sign` folder.
-4. Download Stanford Parser 4.2.0 and add its contents to the `txt2_sign` folder.
+4. Download Stanford Parser 4.2.0 and add its contents to the `txt2sign` folder.
 
 
 ## Dataset
