@@ -4,9 +4,10 @@
 ## Table of Contents
 
 - [About](#about)
-  - [Directory Structure](#structure)
-  - [Dataset](#dataset)
+- [Directory Structure](#structure)
 - [Installation](#installation)
+- [Algorithms](#algorithms)
+- [Dataset](#dataset)
   
 ## About
 
@@ -36,6 +37,34 @@ To get started with this dummy project, follow these steps:
 2. Set the Java path in the `eng2isl.py` module: replace: `java_path = r"C:\Program Files\Android\Android Studio\jre\bin"`.
 3. Add sign videos for the Text to Sign module to the `txt_sign` folder.
 4. Download Stanford Parser 4.2.0 and add its contents to the `txt2sign` folder.
+5. Add the following jars(`stanford-parser.jar','stanford-parser-4.2.0-models.jar`) to jars folder under `txt2sign` .
+6. Run app.py to start the server and access the functionalities on localhost.
+
+
+## Algorithms
+1. Indian Sign Language Recognition
+    - Model Creation Phase
+    
+   ![Algorithm](Images/approach_2.png)
+
+    - Detection Phase
+    
+    ![Algorithm](Images/approach2_2.png)
+  
+3. English Text to Indian Sign Language
+   
+   ![Algorithm](Images/text_to_isl_flow.png)
+
 
 
 ## Dataset
+1. Dataset Used for Text to Sign Language:
+   - ISL dataset https://indiansignlanguage.org/ by RKMVERI, The Faculty of Disability Management and Special Education.
+     
+2. Dataset Created for Sign Language Recognition:
+   - This approach involved the use of integrated Webcam to record 18 different dynamic ISL Signs and the corresponding 3D hand landmarks into train CSV files.
+     Final Dataset included two separate CSV files:
+     - Single Handed (11 classes) - [rows(15,500), columns(85)] (See, Hello, Mango, Eat, Morning, Tall, Good, Sorry, What, This, You)
+     - Double Handed (7 classes) - [rows(10,500), columns(169)] (Perfect, Thank You, Dance, Sleep, Time, Late, Work)
+
+
