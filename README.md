@@ -1,4 +1,6 @@
 # README.md
+Indian Sign Language Recognition (Text to Sign Language and Sign Language to Text)
+
 ![Prototype](https://github.com/gadmin7/Transapp/blob/main/Images/isl.gif)
 
 ## Table of Contents
@@ -6,7 +8,7 @@
 - [About](#about)
 - [Directory Structure](#structure)
 - [Installation](#installation)
-- [Algorithms](#algorithms)
+- [WorkFlows](#workflows)
 - [Dataset](#dataset)
   
 ## About
@@ -41,7 +43,7 @@ To get started with this dummy project, follow these steps:
 6. Run app.py to start the server and access the functionalities on localhost.
 
 
-## Algorithms
+## WorkFlows
 1. Indian Sign Language Recognition
     - Model Creation Phase
     
