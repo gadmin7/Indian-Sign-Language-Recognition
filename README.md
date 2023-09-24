@@ -1,8 +1,6 @@
 # README.md
 Indian Sign Language Recognition (Text to Sign Language and Sign Language to Text)
 
-![Prototype](https://github.com/gadmin7/Transapp/blob/main/Images/isl.gif)
-
 ## Table of Contents
 
 - [About](#about)
