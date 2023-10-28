@@ -16,7 +16,7 @@ An attempt to formulate a technological solution to provide Real-time translatio
 - **Sign language barriers:** Using machine learning to translate sign language to text as well as NLP to translate text to sign language.
 
 ### Structure
-![Project Directory](https://github.com/gadmin7/Transapp/blob/main/Images/proj_directory.png)
+![Project Directory](https://github.com/gadmin7/Transapp/blob/main/Images/proj_directory_.png)
 
 The system of TransApp can be broadly divided into three parts:
 1. Digital Interface (Web Application)
